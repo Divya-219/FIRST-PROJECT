@@ -4,6 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+ main {
+    max-width: 400px;
+    margin: 50px auto; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+    
+
+
+</style>
+
+
 </head>
 <body>
   <header>
@@ -11,8 +32,8 @@
         <h2>Welcome to my website</h2>
     </header>
      <main>
-        <img src="https://www.w3schools.com/w3images/avatar5.png"
-             alt="Divya Patel image" 
+        <img src="images/FemalePlaceholder.png"
+             alt="Female placeholder image" 
              style="width:100px;height:100px;">
 
         <section>
@@ -21,16 +42,16 @@
             <form class="form" id="form" method="post" action="#">
                 
                 <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" required><br><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name..."required><br><br>
 
                 <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email..." required><br><br>
 
                 <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+                <textarea id="message" name="message" rows="5" placeholder="Enter your message..." required></textarea><br><br>
 
-                <input type="submit" value="Submit">
-
+               <button style="background-color:#007BFF; color: #000; width: fit-content; padding: 10px 20px; border-radius: 5px; cursor: pointer; "  type="submit" >Submit</button>
+           
             </form>
 
         </section>
